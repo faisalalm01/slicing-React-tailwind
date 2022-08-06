@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
 import Navbar from '../components/NavbarLogin'
-import Slider from '../components/Slider'
-import Browser from '../components/Browser'
+import Profile from '../components/Profile'
 
-export default class Home extends Component {
+
+export default class Profiles extends Component {
   render() {
     return (
       <div>
         <Navbar/>
-        <Slider/>
-        <Browser/>
+        <Profile/>
       </div>
     )
   }
